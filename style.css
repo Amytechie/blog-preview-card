@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    place-items: center;
+    font-family: Figtree, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300 900;
+}
+
+.container {
+    border: 1px solid;
+    border-width: 1px 5px 5px 1px;
+    border-radius: 10px;
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;   
+}
+
+#illustration {
+    width: 100%;
+}
+
+h4 {
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid hsl(47, 88%, 63%);
+    background-color: hsl(47, 88%, 63%);
+    width: 20%;
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+}
+
+#author {
+    width: 30px;
+}
+
+.author {
+    top: -10px;
+    position: relative;
+    padding: 10px;
+}
